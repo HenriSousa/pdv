@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pdv.padaria.controller.MainController">
+    <!-- Menu -->
+    <top>
+        <MenuBar>
+            <Menu text="Gestão de Produtos">
+                <MenuItem text="Listar Produtos" onAction="#handleListProducts"/>
+                <MenuItem text="Adicionar Produto" onAction="#handleAddProduct"/>
+                <MenuItem text="Editar Produto" onAction="#handleEditProduct"/>
+                <MenuItem text="Remover Produto" onAction="#handleRemoveProduct"/>
+            </Menu>
+            <Menu text="Registro de Vendas">
+                <MenuItem text="Registrar Venda" onAction="#handleRegisterSale"/>
+            </Menu>
+            <Menu text="Relatórios">
+                <MenuItem text="Consultar Vendas" onAction="#handleGenerateReport"/>
+            </Menu>
+        </MenuBar>
+    </top>
+    
+    <!-- Área de Conteúdo Central -->
+    <center>
+        <!-- Aqui você pode adicionar outros elementos como Painéis de Conteúdo -->
+    </center>
+</BorderPane>

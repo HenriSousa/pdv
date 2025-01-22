@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pdv.padaria.controller.ReportGenerationController">
+    <DatePicker fx:id="startDatePicker" promptText="Data Início"/>
+    <DatePicker fx:id="endDatePicker" promptText="Data Fim"/>
+    <Button text="Gerar Relatório" onAction="#handleGenerateReport"/>
+</VBox>

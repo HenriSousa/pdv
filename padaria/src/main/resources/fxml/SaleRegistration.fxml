@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pdv.padaria.controller.SaleRegistrationController">
+    <TextField fx:id="productField" promptText="Produto"/>
+    <TextField fx:id="quantityField" promptText="Quantidade"/>
+    <TextField fx:id="totalField" promptText="Total" editable="false"/>
+    <Button text="Registrar Venda" onAction="#handleRegisterSale"/>
+</VBox>
